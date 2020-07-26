@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Footer = (props) => {
   const [loading, setLoading] = useState(true);

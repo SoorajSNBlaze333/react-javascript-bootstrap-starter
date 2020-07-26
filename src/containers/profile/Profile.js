@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import UserProfile from '../../components/profile/UserProfile';
 
 const Profile = (props) => {

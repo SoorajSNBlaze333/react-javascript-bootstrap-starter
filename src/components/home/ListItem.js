@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
 const ListItem = (props) => {

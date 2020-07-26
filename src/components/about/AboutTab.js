@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Tabs, Tab } from 'react-bootstrap';
 
 const AboutTab = (props) => {

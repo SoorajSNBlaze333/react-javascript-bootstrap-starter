@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Figure, Button } from 'react-bootstrap';
+import { Card, Button } from 'react-bootstrap';
 
 const UserProfile = (props) => {
   return (
