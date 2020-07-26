@@ -1,0 +1,18 @@
+html,
+body,
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  height: 50px;
+}
+
+.content {
+  height: calc(100vh - 90px);
+}
+
+.footer {
+  height: 40px;
+}
