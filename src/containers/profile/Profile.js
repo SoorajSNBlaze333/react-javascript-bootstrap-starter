@@ -1,4 +1,5 @@
 import React, { Fragment, useState, useEffect } from 'react';
+import UserProfile from '../../components/profile/UserProfile';
 
 const Profile = (props) => {
   const [loading, setLoading] = useState(true);
@@ -12,9 +13,9 @@ const Profile = (props) => {
   }
 
   return (
-    <Fragment>
-      Profile Page
-    </Fragment>
+    <div className="w-100 p-4">
+      <UserProfile />
+    </div>
   )
 }
 

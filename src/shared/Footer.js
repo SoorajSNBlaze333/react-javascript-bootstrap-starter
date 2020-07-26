@@ -12,8 +12,8 @@ const Footer = (props) => {
   }
 
   return (
-    <small className="w-100 d-flex justify-content-center align-items-center footer">
-      Your footer goes here!
+    <small className="w-100 d-flex justify-content-center align-items-center footer text-muted">
+      React Bootstrap - Javascript Starter Template
     </small>
   )
 }

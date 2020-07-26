@@ -14,9 +14,9 @@ const Header = (props) => {
   }
 
   return (
-    <Navbar bg="light" expand="lg" className="w-100 header">
+    <Navbar bg="dark" expand="lg" className="w-100 header">
       <Navbar.Brand>
-        <NavLink exact to="/">Your Brand Goes Here</NavLink>
+        <NavLink activeClassName="brand-active" exact to="/">Your Brand Goes Here</NavLink>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

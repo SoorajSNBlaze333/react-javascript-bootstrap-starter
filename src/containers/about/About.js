@@ -1,4 +1,5 @@
 import React, { Fragment, useState, useEffect } from 'react';
+import AboutTab from '../../components/about/AboutTab';
 
 const About = (props) => {
   const [loading, setLoading] = useState(true);
@@ -12,9 +13,9 @@ const About = (props) => {
   }
 
   return (
-    <Fragment>
-      About Page
-    </Fragment>
+    <div className="p-0">
+      <AboutTab />
+    </div>
   )
 }
 
