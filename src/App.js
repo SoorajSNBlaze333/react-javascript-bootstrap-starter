@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import Layout from './layouts/Layout';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './stylesheets/styles.css';
+import 'tooltip-sequence/dist/index.css';
 
 const App = () => {
   return (
